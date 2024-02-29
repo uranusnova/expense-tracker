@@ -1,7 +1,9 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
- 
+  <a href="https://github.com/othneildrew/Best-README-Template">
+    <img src="assets/resources/appIcon-with-margin.png"  alt="App Icon" width="100" height="100">
+  </a>
 
   <h1 align="center">Nova Wallet - Official repository</h1>
 
@@ -48,8 +50,8 @@
 
 |                                                                                                                    |                                                                                                                    |                                                                                                                    |                                                                                                                    |
 | :----------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------: |
-| ![1](https://github.com/enrique-lozano/Monekin/blob/main/app-marketplaces/screenshots/en/Mockups/Diapositiva1.PNG) | ![2](https://github.com/enrique-lozano/Monekin/blob/main/app-marketplaces/screenshots/en/Mockups/Diapositiva2.PNG) | ![3](https://github.com/enrique-lozano/Monekin/blob/main/app-marketplaces/screenshots/en/Mockups/Diapositiva3.PNG) | ![4](https://github.com/enrique-lozano/Monekin/blob/main/app-marketplaces/screenshots/en/Mockups/Diapositiva4.PNG) |
-| ![5](https://github.com/enrique-lozano/Monekin/blob/main/app-marketplaces/screenshots/en/Mockups/Diapositiva5.PNG) | ![6](https://github.com/enrique-lozano/Monekin/blob/main/app-marketplaces/screenshots/en/Mockups/Diapositiva6.PNG) |
+| ![1](https://github.com/uranusnova/expense-tracker/blob/main/Diapositiva1.PNG) | ![2](https://github.com/uranusnova/expense-tracker/blob/main/Diapositiva2.PNG) | ![3](https://github.com/uranusnova/expense-tracker/blob/main/Diapositiva3.PNG) | ![4](https://github.com/uranusnova/expense-tracker/blob/main/Diapositiva4.PNG) |
+| ![5](https://github.com/uranusnova/expense-tracker/blob/main/Diapositiva5.PNG) | ![6](https://github.com/uranusnova/expense-tracker/blob/main/Diapositiva6.PNG) |
 
 ### Why Nova Wallet?
 
