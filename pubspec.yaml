@@ -1,0 +1,154 @@
+name: monekin
+description: The best personal finance controller on the market. Learn to save and manage your finances with Monekin.
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+publish_to: 'none'
+
+# [VersionName]+[VersionNumber] -> The version number follow the below convetion:
+#
+# XXXXX.YY.ZZZ
+#
+# The X represents the major releases, and can be up to infinity. Never start by a zero
+# The Y represents the minor releases, and can be up to 99. Always start by a zero
+# The Z represents the patch releases, and can be up to 999. Always start by a zero
+version: 5.0.4+500004
+
+environment:
+  sdk: '>=3.2.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  flutter_localizations:
+    sdk: flutter
+
+  # General
+  cupertino_icons: ^1.0.0
+  collection: ^1.18.0
+  equatable: ^2.0.5
+  path: ^1.8.2
+  async: ^2.10.0
+  rxdart: ^0.27.7
+  google_mobile_ads: ^4.0.0
+
+  # i18n
+  intl: ^0.18.0
+  slang: ^3.18.1
+  slang_flutter: ^3.18.0
+
+  # Drift
+  drift: ^2.8.1
+  path_provider: ^2.0.13
+  http: ^1.1.2
+  sqlite3: ^2.0.0
+  sqlite3_flutter_libs: ^0.5.18
+
+  # Other
+  flutter_svg: ^2.0.5
+  permission_handler: ^11.1.0
+  json_annotation: ^4.8.1
+  fl_chart: ^0.63.0
+  file_picker: ^6.1.1
+  share_plus: ^7.1.0
+  url_launcher: ^6.1.11
+  uuid: ^3.0.7
+  csv: ^5.0.2
+  dotted_border: ^2.0.0+3
+  package_info_plus: ^4.0.2
+  introduction_screen: ^3.1.11
+  dynamic_color: ^1.6.7
+  copy_with_extension: ^5.0.4
+  freezed_annotation: ^2.4.1
+  in_app_purchase: ^3.1.11
+  auto_route: ^7.8.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.1
+
+  # Generators:
+  build_runner: ^2.3.3
+  json_serializable: ^6.2.0
+  flutter_launcher_icons: ^0.13.1 # Package to regenerate icons (config later in this file). To run, type `dart run flutter_launcher_icons`
+  drift_dev: ^2.13.2
+  slang_build_runner: ^3.18.0 # To regenerate the translations run 'dart run slang'
+  copy_with_extension_gen: ^5.0.4
+  freezed: ^2.4.5
+  auto_route_generator: ^7.3.2
+
+flutter_launcher_icons:
+  image_path: 'assets/resources/appIcon-removebg.png'
+  android: true
+  ios: false
+  windows:
+    generate: true
+  macos:
+    generate: false
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/resources/
+    - assets/icons/app_onboarding/
+    - assets/icons/avatars/
+    - assets/icons/currency_flags/
+    - assets/icons/page_states/
+    - assets/icons/supported_selectable_icons/entertainment/
+    - assets/icons/supported_selectable_icons/other/
+    - assets/icons/supported_selectable_icons/money/
+    - assets/icons/supported_selectable_icons/food/
+    - assets/icons/supported_selectable_icons/medical/
+    - assets/icons/supported_selectable_icons/transport/
+    - assets/icons/supported_selectable_icons/technology/
+    - assets/icons/supported_selectable_icons/logos/financial_institutions/
+    - assets/sql/
+    - assets/sql/migrations/
+    - assets/icons/backup/
+
+  fonts:
+    - family: Nunito
+      fonts:
+        - asset: assets/fonts/Nunito/Nunito-Regular.ttf
+        - asset: assets/fonts/Nunito/Nunito-Italic.ttf
+          style: italic
+        - asset: assets/fonts/Nunito/Nunito-Black.ttf
+          weight: 900
+        - asset: assets/fonts/Nunito/Nunito-BlackItalic.ttf
+          style: italic
+          weight: 900
+        - asset: assets/fonts/Nunito/Nunito-ExtraBold.ttf
+          weight: 800
+        - asset: assets/fonts/Nunito/Nunito-ExtraBoldItalic.ttf
+          style: italic
+          weight: 800
+        - asset: assets/fonts/Nunito/Nunito-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Nunito/Nunito-BoldItalic.ttf
+          style: italic
+          weight: 700
+        - asset: assets/fonts/Nunito/Nunito-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Nunito/Nunito-SemiBoldItalic.ttf
+          style: italic
+          weight: 600
+        - asset: assets/fonts/Nunito/Nunito-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Nunito/Nunito-MediumItalic.ttf
+          style: italic
+          weight: 500
+        - asset: assets/fonts/Nunito/Nunito-Light.ttf
+          weight: 300
+        - asset: assets/fonts/Nunito/Nunito-LightItalic.ttf
+          style: italic
+          weight: 300
+        - asset: assets/fonts/Nunito/Nunito-ExtraLight.ttf
+          weight: 200
+        - asset: assets/fonts/Nunito/Nunito-ExtraLightItalic.ttf
+          style: italic
+          weight: 200
