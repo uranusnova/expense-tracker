@@ -1,5 +1,5 @@
-name: novawallet
-description: The best personal finance controller on the market. Learn to save and manage your finances with Nova Wallet.
+name: monekin
+description: The best personal finance controller on the market. Learn to save and manage your finances with Monekin.
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
@@ -13,7 +13,7 @@ publish_to: 'none'
 # The X represents the major releases, and can be up to infinity. Never start by a zero
 # The Y represents the minor releases, and can be up to 99. Always start by a zero
 # The Z represents the patch releases, and can be up to 999. Always start by a zero
-version: 5.0.4+500004
+version: 5.0.3+500003
 
 environment:
   sdk: '>=3.2.0 <4.0.0'
